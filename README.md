@@ -18,7 +18,13 @@ Chapter 4とChapter 5のコードについては、多くのGPUメモリを必�
 |   | 3.1 テキスト分類（評価用） |  |  |
 |   | 3.2 マルチラベルテキスト分類（学習用） |  |  |
 |   | 3.2 マルチラベルテキスト分類（評価用） |  |  |
-| Chapter4 生成AIのファインチューニング |  |  |  |
+| Chapter4 生成AIのファインチューニング | 4.1 プロンプトエンジニアリングによる質問応答 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/laboroai/finetuning_cookbook/blob/main/chapter4/1_PromptEngineering.ipynb)  | [リンク](./chapter4/1_PromptEngineering.ipynb) |
+|   | 4.2 LoRAによる質問応答（学習用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/laboroai/finetuning_cookbook/blob/main/chapter4/2-1_LoRA.ipynb) | [リンク](./chapter4/2-1_LoRA.ipynb) |
+|   | 4.2 LoRAによる質問応答（評価用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/laboroai/finetuning_cookbook/blob/main/chapter4/2-2_LoRA.ipynb) | [リンク](./chapter4/2-2_LoRA.ipynb) |
+|   | 4.3 インストラクションチューニングによる質問応答（学習用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/laboroai/finetuning_cookbook/blob/main/chapter4/3-1_InstructionTuning.ipynb) | [リンク](./chapter4/3-1_InstructionTuning.ipynb) |
+|   | 4.3 インストラクションチューニングによる質問応答（評価用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/laboroai/finetuning_cookbook/blob/main/chapter4/3-2_InstructionTuning.ipynb) | [リンク](./chapter4/3-2_InstructionTuning.ipynb) |
+|   | 4.4 画像生成（学習用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/laboroai/finetuning_cookbook/blob/main/chapter4/4-1_StableDiffusion.ipynb) | [リンク](./chapter4/4-1_StableDiffusion.ipynb) |
+|   | 4.4 画像生成（推論用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/laboroai/finetuning_cookbook/blob/main/chapter4/4-2_StableDiffusion.ipynb) | [リンク](./chapter4/4-2_StableDiffusion.ipynb) |
 | Chapter5 強化学習のファインチューニング |  |  |  |
 
 ## 正誤情報
