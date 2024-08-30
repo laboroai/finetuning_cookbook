@@ -8,7 +8,7 @@
 
 ## ノートブック
 
-すべてのコードは、Google Colaboratory (Colab) 上で行っています。<br>
+すべてのコードは、Google Colaboratory (Colab) 上で動作確認を行っています。<br>
 Chapter 4とChapter 5のコードについては、多くのGPUメモリを必要とするため、Colab Proプラン (有料) にて動作確認を行っています。
 
 | Chapter | 説明 | Colab へのリンク | ファイルへのリンク |
