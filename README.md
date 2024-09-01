@@ -13,7 +13,10 @@ Chapter 4とChapter 5のコードについては、多くのGPUメモリを必�
 
 | Chapter | 説明 | Colab へのリンク | ファイルへのリンク |
 | --- | --- | --- | --- |
-| Chapter2 画像のファインチューニング |  |  |  |
+| Chapter2 画像のファインチューニング | 2.1 画像分類  | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laboroai/finetuning_cookbook/blob/main/chapter2/1-1_classification.ipynb) | [リンク](./chapter2/1-1_classification.ipynb) |
+|| 2.2 物体検出 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laboroai/finetuning_cookbook/blob/main/chapter2/2-1_detection.ipynb) | [リンク](./chapter2/2-1_detection.ipynb) |
+|| 2.3 距離学習 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laboroai/finetuning_cookbook/blob/main/chapter2/3-1_metric_learning.ipynb) | [リンク](./chapter2/3-1_metric_learning.ipynb) |
+|| 2.4 教師無し異常検知 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laboroai/finetuning_cookbook/blob/main/chapter2/4-1_anomaly_detection.ipynb) | [リンク](./chapter2/4-1_anomaly_detection.ipynb) |
 | Chapter3 自然言語処理のファインチューニング | 3.1 テキスト分類（学習用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laboroai/finetuning_cookbook/blob/main/chapter3/1-1_text_classification_train.ipynb) | [リンク](./chapter3/1-1_text_classification_train.ipynb) |
 |   | 3.1 テキスト分類（評価用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laboroai/finetuning_cookbook/blob/main/chapter3/1-2_text_classification_eval.ipynb) | [リンク](./chapter3/1-2_text_classification_eval.ipynb) |
 |   | 3.2 マルチラベルテキスト分類（学習用） | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/laboroai/finetuning_cookbook/blob/main/chapter3/2-1_multi_label_classification_train.ipynb) | [リンク](./chapter3/2-1_multi_label_classification_train.ipynb) |
