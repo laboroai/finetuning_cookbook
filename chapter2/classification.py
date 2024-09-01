@@ -1,5 +1,3 @@
-# %%
-
 import numpy as np
 import torch
 from torch.utils.data import DataLoader, SubsetRandomSampler
@@ -7,8 +5,17 @@ from torchvision import datasets, transforms
 from tqdm import tqdm
 
 
-# %%
 def get_random_sampler(dataset, subset_size=1000, random_seed=42):
+    """データセットからランダムにデータを取得するためのSubsetRandomSamplerを作成する
+
+    Args:
+        dataset (_type_): 対象データセット
+        subset_size (int, optional): ランダムに抽出するデータ数. Defaults to 1000.
+        random_seed (int, optional): seed値. Defaults to 42.
+
+    Returns:
+        _type_: _description_
+    """
     # データセットのインデックス配列を作成する
     indices = list(range(len(dataset)))
     # インデックスをシャッフルする
@@ -20,8 +27,19 @@ def get_random_sampler(dataset, subset_size=1000, random_seed=42):
     return SubsetRandomSampler(subset_indices)
 
 
-# %%
 def train_epoch(model, train_loader, criterion, optimizer, device):
+    """1エポック分の学習を行う
+
+    Args:
+        model (_type_):
+        train_loader (_type_):
+        criterion (_type_):
+        optimizer (_type_):
+        device (_type_):
+
+    Returns:
+        _type_: _description_
+    """
     # モデルをtrainモードにする
     model.train()
     # 損失を記録する変数を定義
@@ -51,6 +69,17 @@ def train_epoch(model, train_loader, criterion, optimizer, device):
 
 
 def validate_epoch(model, val_loader, criterion, device):
+    """1エポック分の検証を行う
+
+    Args:
+        model (_type_): _description_
+        val_loader (_type_): _description_
+        criterion (_type_): _description_
+        device (_type_): _description_
+
+    Returns:
+        _type_: _description_
+    """
     # モデルをevalモードにする
     model.eval()
     # 損失を記録する変数を定義
@@ -87,6 +116,17 @@ def get_cifar10_train_test_loader(
     resize: tuple[int, int] = (256, 256),
     batch_size: int = 32,
 ):
+    """CIFAR-10データセットの学習データと検証データのDataLoaderを作成する
+
+    Args:
+        train_samples (int, optional): _description_. Defaults to 1000.
+        test_samples (int, optional): _description_. Defaults to 1000.
+        resize (tuple[int, int], optional): _description_. Defaults to (256, 256).
+        batch_size (int, optional): _description_. Defaults to 32.
+
+    Returns:
+        _type_: _description_
+    """
     # 画像を256x156にリサイズして、テンソルに変換する
     transform = transforms.Compose([transforms.Resize(resize), transforms.ToTensor()])
 
@@ -110,7 +150,3 @@ def get_cifar10_train_test_loader(
     # 検証DataLoaderの作成
     test_loader = DataLoader(test_dataset, batch_size=batch_size, sampler=test_sampler)
     return train_loader, test_loader
-
-
-# %%
-# 学習コードの作成
