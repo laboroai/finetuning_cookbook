@@ -1,0 +1,4 @@
+*.jpg
+data/
+*.pt
+output/
